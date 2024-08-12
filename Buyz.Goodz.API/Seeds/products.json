@@ -1,0 +1,122 @@
+[
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "Name": "Product 1",
+    "Price": 19.99,
+    "Colour": {
+      "Id": "1",
+      "Name": "Red"
+    },
+    "StockLevel": 100,
+    "CreatedInUtc": "2024-08-01T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-10T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0852",
+    "Name": "Product 2",
+    "Price": 29.99,
+    "Colour": {
+      "Id": "2",
+      "Name": "Red"
+    },
+    "StockLevel": 200,
+    "CreatedInUtc": "2024-08-02T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-11T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0853",
+    "Name": "Product 3",
+    "Price": 39.99,
+    "Colour": {
+      "Id": "3",
+      "Name": "Green"
+    },
+    "StockLevel": 300,
+    "CreatedInUtc": "2024-08-03T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-12T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0854",
+    "Name": "Product 4",
+    "Price": 49.99,
+    "Colour": {
+      "Id": "4",
+      "Name": "Yellow"
+    },
+    "StockLevel": 400,
+    "CreatedInUtc": "2024-08-04T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-13T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0855",
+    "Name": "Product 5",
+    "Price": 59.99,
+    "Colour": {
+      "Id": "5",
+      "Name": "Blue"
+    },
+    "StockLevel": 500,
+    "CreatedInUtc": "2024-08-05T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-14T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0856",
+    "Name": "Product 6",
+    "Price": 69.99,
+    "Colour": {
+      "Id": "6",
+      "Name": "White"
+    },
+    "StockLevel": 600,
+    "CreatedInUtc": "2024-08-06T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-15T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0857",
+    "Name": "Product 7",
+    "Price": 79.99,
+    "Colour": {
+      "Id": "7",
+      "Name": "Purple"
+    },
+    "StockLevel": 700,
+    "CreatedInUtc": "2024-08-07T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-16T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0858",
+    "Name": "Product 8",
+    "Price": 89.99,
+    "Colour": {
+      "Id": "8",
+      "Name": "Orange"
+    },
+    "StockLevel": 800,
+    "CreatedInUtc": "2024-08-08T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-17T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0859",
+    "Name": "Product 9",
+    "Price": 99.99,
+    "Colour": {
+      "Id": "9",
+      "Name": "Pink"
+    },
+    "StockLevel": 900,
+    "CreatedInUtc": "2024-08-09T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-18T12:00:00Z"
+  },
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0860",
+    "Name": "Product 10",
+    "Price": 109.99,
+    "Colour": {
+      "Id": "10",
+      "Name": "Brown"
+    },
+    "StockLevel": 1000,
+    "CreatedInUtc": "2024-08-10T12:00:00Z",
+    "LastUpdatedInUtc": "2024-08-19T12:00:00Z"
+  }
+]
