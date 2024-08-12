@@ -1,0 +1,35 @@
+
+
+                    +------------------------------------------------------+
+                    |                      API Gateway                     |
+                    |------------------------------------------------------|
+                    |  - Routes requests to appropriate services           |
+                    +------------------------------------------------------+
+                          |                     |                    |
+                          |                     |                    |
+                          v                     v                    v
+         +------------------------+  +-----------------------+  +----------------------+
+         | Products Service       |  | Orders Service        |  | Payments Service     |
+         |------------------------|  |-----------------------|  |----------------------|
+         | - GetAll()             |  |  - PlaceOrder()       |  |  - ProcessPayment()  |
+         | - AddProduct()         |  |  - GetOrder()         |  |  - GetPaymentStatus()|
+         | - GetProductsByColour()|  |  - UpdateOrderStatus()|  |  - RefundPayment()   |
+         +------------------------+  +-----------------------+  +----------------------+
+                          |                     |                    |
+                          |                     |                    |
+                          v                     v                    v
+                    +------------------------------------------------------+
+                    |  Event Bus (e.g: Azure Service Bus, Kafka, RabittMQ) |
+                    |------------------------------------------------------|
+                    |  - Publishes and subscribes to events                |
+                    |  - ProductsCreatedEvent                              |
+                    |  - OrderPlacedEvent                                  |
+                    |  - PaymentProcessedEvent                             |
+                    +------------------------------------------------------+
+                          |                     |                    |
+                          |                     |                    |
+                          v                     v                    v
+                    +---------------+  +---------------+  +----------------+
+                    | MongoDB       |  | MongoDB       |  | MongoDB        |
+                    | (Products)    |  | (Orders)      |  | (Payments)     |
+                    +---------------+  +---------------+  +----------------+
