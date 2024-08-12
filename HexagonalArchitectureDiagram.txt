@@ -1,0 +1,55 @@
++------------------------------------------------------+
+|                      API Layer                       |
+|------------------------------------------------------|
+|  - Controllers                                       |
+|    - GetAll()                                        |
+|    - GetProductsByColour(string colour)              |
+|    - AddProduct()                                    |
++------------------------------------------------------+
+                      |         |
+                      |         |
+                      v         v
++------------------------------------------------------+
+|                 Application Layer                    |
+|------------------------------------------------------|
+|  - IProductCommandService                            |
+|  - IProductQueryService                              |
+|  - IProductCreatedEventHandler                       |
+|  - IProductDtoMapper                                 |
+|  - INotificationService                              |
+|  - CreateProductDto                                  |
+|  - ProductDto                                        |
+|  - Raise Domain Events                               |
+|  - Messaging Infrastructure                          |
+|    - Azure Service Bus / RabbitMQ                    |
++------------------------------------------------------+
+                      |         |
+                      |         |
+                      v         v
++------------------------------------------------------+
+|                   Domain Layer                       |
+|------------------------------------------------------|
+|  - Product (Aggregate Root)                          |
+|  - Colour (Value Object)                             |
+|  - Domain Events                                     |
++------------------------------------------------------+
+                      |         |
+                      |         |
+                      v         v
++------------------------------------------------------+
+|                 Repository Layer                     |
+|------------------------------------------------------|
+|  - IProductReadRepository                            |
+|  - IProductWriteRepository                           |
+|  - IProductDocumentMapper                            |
+|  - ProductDocument                                   |
+|  - ColourDocument                                    |
++------------------------------------------------------+
+                      |         |
+                      |         |
+                      v         v
++------------------------------------------------------+
+|                 Infrastructure Layer                 |
+|------------------------------------------------------|
+|  - MongoDB                                           |
++------------------------------------------------------+
