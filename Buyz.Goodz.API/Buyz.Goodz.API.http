@@ -1,0 +1,6 @@
+@Buyz.Goodz.API_HostAddress = http://localhost:5115
+
+GET {{Buyz.Goodz.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
