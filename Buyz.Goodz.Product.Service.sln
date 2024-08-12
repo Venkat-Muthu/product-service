@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buyz.Goodz.Domain.UnitTests
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buyz.Goodz.TestUtils", "Tests\Buyz.Goodz.TestUtils\Buyz.Goodz.TestUtils.csproj", "{C37F9C89-B64B-4DE5-BB88-AAC22B1ADD81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buyz.Goodz.Infrastructure.MongoDb", "Buyz.Goodz.Infrastructure.MongoDb\Buyz.Goodz.Infrastructure.MongoDb.csproj", "{A7FF0665-C738-424A-A8FB-0DB15D9B1A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buyz.Goodz.Infrastructure.MongoDb.UnitTests", "Tests\Buyz.Goodz.Infrastructure.MongoDb.UnitTests\Buyz.Goodz.Infrastructure.MongoDb.UnitTests.csproj", "{87453830-D716-4745-81C3-A22E643EF5BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{C37F9C89-B64B-4DE5-BB88-AAC22B1ADD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C37F9C89-B64B-4DE5-BB88-AAC22B1ADD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C37F9C89-B64B-4DE5-BB88-AAC22B1ADD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FF0665-C738-424A-A8FB-0DB15D9B1A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FF0665-C738-424A-A8FB-0DB15D9B1A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FF0665-C738-424A-A8FB-0DB15D9B1A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FF0665-C738-424A-A8FB-0DB15D9B1A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87453830-D716-4745-81C3-A22E643EF5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87453830-D716-4745-81C3-A22E643EF5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87453830-D716-4745-81C3-A22E643EF5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87453830-D716-4745-81C3-A22E643EF5BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1B27D129-DD28-4646-AFC5-B7C424E8D632} = {75702FD6-220F-44AE-8B25-D4DFC6318DE8}
 		{C37F9C89-B64B-4DE5-BB88-AAC22B1ADD81} = {75702FD6-220F-44AE-8B25-D4DFC6318DE8}
+		{87453830-D716-4745-81C3-A22E643EF5BD} = {75702FD6-220F-44AE-8B25-D4DFC6318DE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {910B03D7-704B-4F4A-8AD5-4EC0A605A35C}
